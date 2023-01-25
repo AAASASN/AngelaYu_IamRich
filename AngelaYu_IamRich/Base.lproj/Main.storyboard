@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AngelaYu_IamRich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdQ-WM-g93">
+                                <rect key="frame" x="128.66666666666669" y="169" width="135.66666666666669" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="lp9-7K-Emx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="rV9-Zh-wbf">
+                                <rect key="frame" x="76" y="262" width="241" height="328"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как-то так" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLQ-ow-eWq">
+                                <rect key="frame" x="118.66666666666667" y="650" width="155.66666666666663" height="39.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96238988640000001" green="0.84669643409999995" blue="0.83117089330000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="XLQ-ow-eWq" firstAttribute="top" secondItem="rV9-Zh-wbf" secondAttribute="bottom" constant="60" id="10z-nA-3td"/>
+                            <constraint firstItem="rV9-Zh-wbf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="EDZ-cQ-ELu"/>
+                            <constraint firstItem="rV9-Zh-wbf" firstAttribute="top" secondItem="UdQ-WM-g93" secondAttribute="bottom" constant="39" id="TsH-AI-ssX"/>
+                            <constraint firstItem="UdQ-WM-g93" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="Um6-Bm-Bae"/>
+                            <constraint firstItem="UdQ-WM-g93" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5N-o4-YFH"/>
+                            <constraint firstItem="XLQ-ow-eWq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eZJ-dc-fmL"/>
+                            <constraint firstItem="rV9-Zh-wbf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fQS-nw-shi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rV9-Zh-wbf" secondAttribute="trailing" constant="76" id="xmu-aY-01E"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="1030" height="754"/>
+    </resources>
+</document>
